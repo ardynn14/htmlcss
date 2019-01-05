@@ -1,0 +1,7 @@
+for "Thing That Want" list, create css that will make:
+- all list got letter spacing 1.5px, font size 30px, background color lightblue
+- list no. 1 got background color darkblue
+- list no. 2 and 3 got font size 12px
+- list no. 3 text to bold
+
+create the most efficient css that you can

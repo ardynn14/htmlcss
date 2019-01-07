@@ -1,0 +1,10 @@
+about me
+experiences
+skills
+educations
+projects
+learnings
+links
+
+ketentuan: 
+use font awesome for home logo

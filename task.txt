@@ -1,0 +1,27 @@
+create new web pages with layout exactly like https://www.w3schools.com/
+the pages:
+  about me
+  experiences
+  skills
+  educations
+  projects
+  learnings
+  links
+got:
+  header
+  left nav links
+  right nav links
+  header
+  navbar
+  footer
+  content
+
+ketentuan: 
+  use font awesome for home logo
+  use the same css for all pages
+  got dropdown navbar ( hover or click does not matter) for links
+
+plus if:
+  use templating
+  good looking, smooth
+  use custom font, download the font and use it locally

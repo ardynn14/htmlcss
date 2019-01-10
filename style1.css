@@ -1,34 +1,39 @@
-body{
+body {
   margin: 0;
   font-family: "lato", sans-serif;
 }
-div.header>div.topheader>div.headerlogo>img {
+
+div.headerlogo>img {
   text-align: left;
 }
-div.header>div.topheader>div.headertext>h1 {
+
+div.headertext>h1 {
   text-align: right;
   font-size: 30px;
   color: orange;
   background-color: transparent;
 }
-div.header>div.bottomheader>div.navbar {
+
+div.bottomheader>div.navbar {
   list-style-type: none;
-  margin: 10;
+  margin: 0;
   padding: 10;
   overflow: hidden;
   background-color: #333333;
   position: sticky;
   top: 0;
 }
-div.header>div.bottomheader>div.navbar>ul{
+
+div.navbar>ul {
   margin: 0;
 }
-div.header>div.bottomheader>div.navbar>ul>li {
+
+div.navbar>ul>li {
   float: left;
   list-style-type: none;
 }
 
-div.header>div.bottomheader>div.navbar>ul>li>a {
+div.navbar>ul>li>a {
   display: block;
   color: white;
   text-align: center;
@@ -36,11 +41,140 @@ div.header>div.bottomheader>div.navbar>ul>li>a {
   text-decoration: none;
 }
 
-div.header>div.bottomheader>div.navbar>ul>li a:hover:not(.active) {
+div.navbar>ul>li a:hover:not(.active) {
   background-color: #111;
 }
 
-div.header>div.bottomheader>div.navbar>ul>li.active {
+div.navbar>ul>li.active {
   background-color: orange
 }
 
+div.main>div.navleft>div.navlefttop> {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+  margin-top: 125px;
+}
+
+div.main>div.navleft>div.navlefttop>a {
+  padding: 6px 6px 6px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+div.main>div.navleft>div.navlefttop>a:hover {
+  color: white;
+  background-color: orange;
+}
+
+div.main>div.maincontent>div.mainphoto>img {
+  text-align: right;
+}
+
+div.main>div.maincontent {
+  margin-left: 200px;
+}
+
+div.main>div.navright {
+  height: 100%;
+  width: 200px;
+  position: sticky;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+  margin-top: 125px;
+
+}
+
+div.main>div.navright>a {
+  padding: 6px 6px 6px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+div.main>div.navright>a:hover {
+  color: white;
+  background-color: orange;
+}
+
+div.main>div.maintable>h1 {
+  text-align: center;
+  color: #333333;
+  font-size: 20px;
+}
+
+div.main>div.maintable>table {
+  border-collapse: collapse;
+  text-align: center;
+  width: 80%;
+}
+
+div.main>div.maintable>table>td,
+th {
+  border: 4px solid #333333;
+  text-align: center;
+  padding: 10px;
+  color: white;
+}
+
+div.main>div.maintable>table tr:nth-child(even) {
+  background-color: orange;
+  text-align: center;
+  padding: 10px;
+  color: white;
+}
+
+div.main>div.maintable>table tr:nth-child(odd) {
+  background-color: #333;
+  text-align: center;
+  padding: 10px;
+  color: white;
+}
+
+* {
+  box-sizing: border-box
+}
+
+div.skillbar>.container {
+  width: 70%;
+  background-color: #333;
+}
+
+div.skillbar>.skills {
+  text-align: right;
+  padding: 20px;
+  color: white;
+}
+
+div.skills.html {
+  width: 10%;
+  background-color: orange;
+}
+
+div.skills.css {
+  width: 10%;
+  background-color: orange;
+}
+
+div.skills.js {
+  width: 0%;
+  background-color: orange;
+}
+
+div.skills.php {
+  width: 5%;
+  background-color: orange;
+}

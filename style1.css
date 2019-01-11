@@ -3,8 +3,26 @@ body {
   font-family: "lato", sans-serif;
 }
 
+div.header {
+  position: fixed;
+  background-color: white;
+  width: 100%;
+}
+
+div.header>div.topheader {
+  background-color: black;
+}
+
+div.topheader>div.headerlogo {
+  display: inline-block;
+  width: 20%;
+  padding: 20px 20px;
+}
+
 div.headerlogo>img {
   text-align: left;
+  height: 80px;
+  vertical-align: middle;
 }
 
 div.headertext>h1 {
@@ -14,18 +32,25 @@ div.headertext>h1 {
   background-color: transparent;
 }
 
+div.topheader>div.headertext {
+  display: inline-block;
+  width: 79%;
+  padding: 20px;
+}
+
 div.bottomheader>div.navbar {
   list-style-type: none;
   margin: 0;
   padding: 10;
   overflow: hidden;
   background-color: #333333;
-  position: sticky;
   top: 0;
+
 }
 
 div.navbar>ul {
-  margin: 0;
+  margin: 0px;
+  padding: 0px;
 }
 
 div.navbar>ul>li {
@@ -79,8 +104,23 @@ div.main>div.maincontent>div.mainphoto>img {
   text-align: right;
 }
 
+div.main {
+  padding: 200px;
+}
+
 div.main>div.maincontent {
-  margin-left: 200px;
+  margin-left: 0px;
+  background: #818181;
+}
+
+div.maincontent>h1 {
+  text-align: center;
+  color: orange;
+}
+
+div.maincontent>p {
+  color: white;
+  text-align: center;
 }
 
 div.main>div.navright {
@@ -177,4 +217,12 @@ div.skills.js {
 div.skills.php {
   width: 5%;
   background-color: orange;
+}
+
+footer {
+  text-align: center;
+  color: #333;
+  background-color: orange;
+  padding: 20px 200px;
+
 }

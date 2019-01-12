@@ -17,17 +17,19 @@ div.topheader>div.headerlogo {
   display: inline-block;
   width: 20%;
   padding: 20px 20px;
+  text-align: center;
 }
 
 div.headerlogo>img {
   text-align: left;
   height: 80px;
   vertical-align: middle;
+  border-radius: 50%;
 }
 
 div.headertext>h1 {
   text-align: right;
-  font-size: 30px;
+  font-size: 25px;
   color: orange;
   background-color: transparent;
 }
@@ -226,3 +228,70 @@ footer {
   padding: 20px 200px;
 
 }
+
+<!-- <style>
+div#asd.zxc {
+  font-size: 48px;
+}
+
+div#asd {
+  font-size: 36px;
+}
+
+#asd {
+  font-size: 24px;
+}
+
+div.zxc {
+  font-size: 18px;
+}
+
+.zxc {
+  font-size: 12px !important;
+}
+
+/* batas 
+div.header>div#qwe.wrapper.top>p#jkl.name.small {
+  color: green
+}
+
+div.header {
+  font-size: 36px;
+}
+
+div.header>div#qwe.wrapper.top>div.address-wrapper.right {
+  font-size: 12px;
+}
+
+div.header>div#qwe.wrapper.top>div.address-wrapper.right>p#address.street.long.top.left {
+  color: pink;
+}
+
+div.header p#address.street.long.top.left {
+  color: red
+}
+
+div.address-wrapper.right>p#address.street.long.top.left {
+  color: green
+}
+
+div.header>div#qwe.wrapper.top>div.address-wrapper.right>img {
+  color: pink
+}
+</style> -->
+  <!-- header -->
+  <!-- <div id="asd" class="zxc" style="font-size:50px">
+      zxczxcxzczcx
+    </div>
+    <div id="qwe" class="wrapper top">
+      <p id="jkl" class="name small">
+        MY NAME IS asdsadasddsa
+      </p>
+      <div class="address-wrapper right">
+        kjjkljlkjlkj
+        <p id="address" class="street long top left">
+          MY ADDRESS IS ZXCZXCXZCXZC
+        </p>
+        <img src="asdasdzxczxc" alt="">
+      </div>
+    </div> -->

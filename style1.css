@@ -10,7 +10,7 @@ div.header {
 }
 
 div.header>div.topheader {
-  background-color: black;
+  background-color: white;
 }
 
 div.topheader:before {
@@ -41,9 +41,10 @@ div.headerlogo>img {
 div.headertext>h1 {
   text-align: right;
   font-size: 25px;
-  color: orange;
+  color: #333;
   background-color: transparent;
 }
+
 
 div.topheader>div.headertext {
   display: inline-block;
@@ -81,11 +82,12 @@ div.navbar>ul>li>a {
 }
 
 div.navbar>ul>li a:hover:not(.active) {
-  background-color: #111;
+  background-color: #0066cc;
+  color: #333;
 }
 
 div.navbar>ul>li.active {
-  background-color: orange
+  background-color: #0066cc
 }
 
 div.main>div.navleft {
@@ -111,7 +113,7 @@ div.main>div.navleft>div.navlefttop>a {
   padding: 15px;
   text-decoration: none;
   font-size: 22px;
-  color: orange;
+  color: #1ab2ff;
   display: block;
 }
 
@@ -139,7 +141,7 @@ div.main {
 }
 
 div.main>div.maincontent {
-  background: #818181;
+  background: #f2f2f2;
   width: 70%;
   float: left;
   padding: 20px;
@@ -147,11 +149,11 @@ div.main>div.maincontent {
 
 div.maincontent>h3 {
   text-align: center;
-  color: orange;
+  color: #333;
 }
 
 div.maincontent>p {
-  color: white;
+  color: #1a1a1a;
   text-align: left;
   line-height: 1.25;
 }
@@ -167,7 +169,7 @@ div.main>div.navright>a {
   padding: 15px;
   text-decoration: none;
   font-size: 22px;
-  color: orange;
+  color: #1ab2ff;
   display: block;
   text-align: center;
 }
@@ -248,17 +250,20 @@ div.skills.php {
 
 footer {
   text-align: center;
-  color: #333;
-  background-color: orange;
-  padding: 20px 200px;
+  color: white  ;
+  background-color: #333;
+  padding: 30px;
 
+}
+footer>h4 {
+  margin: 0px;
 }
 footer>h5 {
 width: 30%;
     text-align: center;
     margin: auto;
     font-family: "lato",sans-serif;
-    color: white
+    color: white;
 }
 /*  
 <!-- <style>

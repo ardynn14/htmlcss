@@ -1,1 +1,17 @@
- $('.page-scroll').on('click', function())  
+$('.page-scroll').on('click', function(e){
+
+    var tujuan = $(this).attr('href');
+    
+
+    var elemenTujuan = $(tujuan);
+
+
+    $('body').animate({
+
+    });
+
+    e.preventDefault()
+
+
+
+});

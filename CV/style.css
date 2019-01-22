@@ -18,6 +18,11 @@ hr {
     border-top: 3px solid orange
 }
 
+#home {
+    min-height: 300px;
+}
+
+
 section {
     min-height: 600px;
 }
@@ -34,7 +39,7 @@ section {
     min-height: 700px;
 }
  .contact {
-     min-height: 800px;
+     min-height: 1500px;
      background-color: #eeeeee;
  }
 
@@ -42,9 +47,28 @@ footer {
     position: absolute;
     width: 100%;
     bottom: 0;
-    height: 100px;
+    height: 450px;
     background-color: #333333;
-    padding-top: 30px;
+    padding-top: 50px;
+}
+
+
+
+
+.col-sm-2 h4 {
+    color: orange;
+    font-size: 20px;
+}
+
+.col-sm-2 ul {
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+
+.col-sm-2 ul li a{
+    color: #eeeeee;
+    font-size: 12px;
 }
 
 footer p {
@@ -54,6 +78,7 @@ footer p {
 footer p i {
     color: orange;
 }
+
 
 /* a.thumbnail>img { */
     /* height: 172px; */

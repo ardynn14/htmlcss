@@ -7,6 +7,9 @@ margin-bottom: 100px;
 }
 .jumbotron {
     margin-top: 20px;
+    margin-bottom: 0px;
+}
+
 }
 .jumbotron img {
     width: 170px;
@@ -22,22 +25,38 @@ hr {
     min-height: 300px;
 }
 
-
-section {
-    min-height: 600px;
-}
-
 .skills { 
     background-color: #eeeeee;
 }
 
+.fit-image{
+    height:212px;
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+
+.about{
+padding-bottom: 50px;
+}
+
+.skills {
+    padding-bottom: 50px;
+}
+
+.education {
+    padding-bottom: 50px;
+}
+
 .portfolio {
     background-color: #eeeeee;
+    padding-bottom: 50px;
 }
 
 .working {
     min-height: 700px;
 }
+
  .contact {
      min-height: 1500px;
      background-color: #eeeeee;
@@ -201,4 +220,10 @@ footer p i {
 .main-timeline4 .timeline:nth-child(3n) .year:before{border-right-color:#7cba01}
 .main-timeline4 .timeline:nth-child(4n) .year:before{border-right-color:#f8781f}
 .main-timeline4 .inner-content{padding:10px}
+}
+
+@media (min-width: 1200px){
+    .container {
+        width: 768px;
+    }
 }

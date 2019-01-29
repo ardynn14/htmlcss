@@ -221,9 +221,7 @@ footer p i {
 .main-timeline4 .timeline:nth-child(4n) .year:before{border-right-color:#f8781f}
 .main-timeline4 .inner-content{padding:10px}
 }
-
-@media (min-width: 1200px){
+   
     .container {
-        width: 768px;
+        width: 768px!important;
     }
-}
